@@ -1,0 +1,136 @@
+<!doctype html> 
+<html> 
+<head> 
+	<title> </title> 
+	<meta charset="UTF-8"> 
+	<link rel="icon" href="../favicon.ico">
+	<link rel="stylesheet" href="styles.css">
+	<script src="strings.js"> </script>
+	<script src="date_and_calc.js"> </script>
+</head> 
+
+<body id="page"> 
+	<h1 class="big_head">
+		Знакомство с JavaScript
+	</h1>
+	<div class="block">
+		<h2 class="head">
+			You can change background color
+		</h2>
+
+		<div class="bottom_row">
+			<button style="background: burlywood;" onclick="setColor('burlywood')">
+				Standart
+			</button>
+			<button style="background: yellow';" onclick="setColor('yellow')">
+				Yellow
+			</button>
+			<button style="background: black; color: white;" onclick="setColor('black')">
+				Black
+			</button>
+			<button style="background: white;" onclick="setColor('white')">
+				White
+			</button>
+			<button style="background: red;" onclick="setColor('red')">
+				Red
+			</button>
+			<button style="background: green;" onclick="setColor('green')">
+				Green
+			</button>
+			<button style="background: brown;" onclick="setColor('brown')">
+				Brown
+			</button>
+			<button style="background: gray;" onclick="setColor('gray')">
+				Gray
+			</button>
+		</div>
+
+		<div class="bottom_row">
+			<button id="date" onclick="showDate()">
+				Show me date
+			</button>
+		</div>
+	</div>
+
+	<div class="block">
+		<h2 class="head">
+			Let's play with the strings
+		</h2>
+
+		<p>
+			1.В предложении удалить все слова, состоящие более чем из 5 букв. Вывести результат в новом окне.
+		</p>
+		<input id="work_1">
+		<button onclick="work_1()">
+			Show result
+		</button>
+
+		<p>
+			2.В предложении удалить наиболее часто встречающуюся букву. Вывести результат в новом окне.
+		</p>
+		<input id="work_2">
+		<button onclick="work_2()">
+			Show result
+		</button>
+
+
+		<p>
+			3.Удалить в предложении все цифры. Вывести результат в новом окне.
+		</p>
+		<input id="work_3">
+		<button onclick="work_3()">
+			Show result
+		</button>
+	</div>
+
+	<div class="block">
+		<h2 class="head">
+			Simple calculator
+		</h2>
+
+		<p>
+			 You can use: "+", "-", "*", "/", "()".
+		</p>
+
+		<form name = "calculator" onsubmit="return false;">
+			Expression: 
+		<input type = "text" name = "input_expression">
+		<input type="submit" value="Find answer" onclick="calculateForm()"> 
+		</form>
+		<p id="for_answ"> Answer: </p>
+	</div>
+
+	<div class="block">
+		<h2 class="head">
+			Sekiro: Shadows Die Twice
+		</h2>
+
+		<img id="sekiro" src = "Sekiro_Shadows_Die_Twice.jpg" alt = "Sekiro: Shadows Die Twice">
+
+		<p>
+			Игра года - The Game Awards 2019 <br>
+			Лучший приключенческий экшен - The Game Awards 2019 <br>
+			Лучший экшен 2019 г. - IGN <br> 
+			Более 50 премий и номинаций <br> <br>
+
+			В игре Sekiro: Shadows Die Twice вы станете «одноруким волком», изуродованным воином-изгоем, которого спасли от верной смерти. 
+			Поклявшись защищать молодого господина, являющегося наследником древнего рода, вы наживаете много опасных противников, среди которых - безжалостный клан Асина. 
+			Когда молодой господин оказывается в плену, вы отправляетесь в опасный путь, чтобы спасти его, и ничто не помешает вам восстановить свою честь.
+			<br> <br>
+			Отправляйтесь в путешествие по Японии периода Сэнгоку конца XVI столетия. 
+			Это было жестокое время непрекращающихся конфликтов, и вам предстоит столкнуться с чудовищными врагами, населяющими этот мрачный безумный мир. 
+			Обрушьте на противников целый арсенал смертоносных протезов и мощные способности ниндзя. 
+			Действуйте скрытно, залезайте на высокие точки и уничтожайте врагов в кровавых битвах.
+		</p>
+		
+		<div class="clear_bottom"></div>
+
+	</div>
+
+	<h3 id = "end" class="big_head_bottom">
+		Created by Н.В. Логинов
+	</h3>
+
+</body>
+
+</html>

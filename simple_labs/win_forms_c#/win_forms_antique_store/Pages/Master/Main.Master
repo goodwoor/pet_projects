@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="Антикварный_магазин.Pages.Master.Login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Antiques.com </title>
+
+    <link rel="stylesheet" href="stylesMain.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div class="header center-display">
+                <div class="name">
+                    <b> Antiques.com </b>
+                </div>
+                
+                <div class="buttons">
+                    <div class="center-display">
+                        <div>
+                        <asp:Button runat="server" ID="AdminButton" CssClass="button" Text="Администратор" OnClick="AdminButton_Click" />
+                        </div>
+                        <div>
+                        <asp:Button runat="server" ID="ClientButton" CssClass="button" Text="Покупатель" OnClick="ClientButton_Click" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+    </form>
+
+    <footer class="header footer">
+        Контакты: zxcasdqwe4132@mail.ru, 89177894662.
+    </footer>
+</body>
+</html>

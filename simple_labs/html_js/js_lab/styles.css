@@ -1,0 +1,78 @@
+#page{
+    background-color: burlywood;
+    margin: 0;
+}
+.big_head{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.big_head_bottom{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-top: 1%;
+}
+.head{
+    text-align: center;
+    padding: 1%;
+}
+
+.block{
+    background-color:  rgb(179, 64, 64);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    padding-bottom: 0.5%;
+}
+.bottom_row{
+    margin: 1%;
+    padding-left: 28%;
+    padding-right: 20%;
+}
+.block .bottom_row button{
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+}
+.block p{
+    font-size: 125%;
+}
+form{
+    font-size: 125%;
+}
+
+#date{
+    margin-left: 32%;
+}
+#sekiro{
+    float: right;
+    margin: 10px;
+    margin-top: 0px;
+    width: 407px;
+    height: 445px;
+}
+
+/*убираем обтекание float-элементов*/
+.clear_bottom{
+    clear:both;
+    border: 0px solid rgb(37, 37, 37);
+}
+
+#work_1{
+    width: 50%;
+}
+
+#work_2{
+    width: 50%;
+}
+
+#work_3{
+    width: 50%;
+}

@@ -1,0 +1,153 @@
+@font-face{
+    font-family: 'Oranienbaum';
+    src: url(font/Oranienbaum.ttf);
+} 
+
+body{
+    margin: 0;
+}
+
+.top{
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    padding-top: 1%;
+}
+
+.head{
+    display: inline-block;
+}
+
+.colorText{
+    color: rgb(135,1,1);
+}
+
+.content{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%; 
+}
+
+.bottomClear{
+    clear: both;
+    margin-bottom: 0.5%;
+}
+
+.nav{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 120%;
+}
+
+.nav a{
+    color: rgb(250,172,107);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.middleContent{
+    background-color:  rgb(184, 184, 184);
+    margin-top: -4px;
+    font-family: Oranienbaum;
+    font-size: 200%;
+    color: rgb(135,1,1);
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bottom{
+    background-color: rgb(25, 25, 25);
+    color: rgb(163,163,163);
+    width: 70%;
+    padding: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 1.5;
+}
+
+.bottom div {
+    display: inline-block;
+}
+
+#imgItem{
+    width: 512px; 
+    height: 512px;
+    float: left;
+    margin: 2%;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#menu{
+    margin-top: 0;
+}
+
+#search{
+    float: right;
+    padding-top: 2.5%;
+}
+
+#searchForm{
+    border: none;
+    border-bottom: 1px solid rgb(80,52,32);
+    background-color: rgb(25, 25, 25);
+}
+
+#vk{
+    margin-left: 1%;
+    float: right; 
+    margin-top: 3.5%;
+}
+
+#vk img{
+    width: 20px;
+    height: 20px;
+}
+
+#email{
+    color: rgb(250,172,107);
+    font-family: Oranienbaum;
+    font-size: 45%;
+    text-decoration: underline;
+}
+
+#contacts{
+    float:right; 
+    margin-top: 4%;
+    margin-bottom: 1%;
+    color: rgb(241, 229, 229);
+    text-align: right;
+
+    font-family: Oranienbaum;
+    font-size: 200%;
+    line-height: 0.5;
+}
+
+#year{
+    float: left;
+}
+
+#street{
+    padding-left: 35%;
+}
+
+#ssilki{
+    float: right;
+    text-align: right;
+}
+
+#ssilki a{
+    text-decoration: underline;
+}

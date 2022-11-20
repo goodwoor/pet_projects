@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+
+.buttonSnow{
+    width: 10%; 
+    background-color: chocolate;
+    border: none;
+    color: azure;
+    font-size: 150%;
+}

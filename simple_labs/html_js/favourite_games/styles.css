@@ -1,0 +1,56 @@
+body{
+    color: rgb(238, 222, 200);
+    background-color: rgb(133, 150, 151);
+    text-align: left;
+}
+p{
+    font-size: 120%;
+}
+.main_head{
+    border-bottom-style: solid;
+    border-color: white;
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+.main_div {
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid rgb(81, 87, 81);
+    background-color: rgb(37, 37, 37);
+    text-align: left;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+.right_img{
+    float: right;
+    margin: 10px;
+    margin-top: 0px;
+}
+.left_img{
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+/*убираем обтекание float-элементов*/
+.clear_bottom{
+    clear:both;
+    border: 0px solid rgb(37, 37, 37);
+}
+
+#img_1{
+    width: 700px;
+    height: 440px;
+}
+#img_2{
+    width: 667px;
+    height: 417px;
+}
+#img_3{
+    width: 640px;
+    height: 360px;
+}
